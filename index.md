@@ -14,9 +14,9 @@ We wanted to better understand MPPT operations and be able to then share that kn
 We've set up a small network of information systems in order to manage and organize both our designs and technical notes. 
 
 You can find our electrical design files here:
-# TODO: link electrical file repos
+[OS-MPPT Electrical Design](https://github.com/tjtiede/OSMPPT)
 
 And the computer design files here:
-# TODO: link to TJ's repo
+[OS-MPPT Digital Design](https://github.com/tjtiede/OSMPPT)
 
 And last but certainly not least, you can find additional design and technical notes at this blog page!
