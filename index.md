@@ -1,4 +1,7 @@
 # OS-MPPT: The OS-Some MPPT
+
+![Sunny](/assets/SunnyOSMPPT.png)
+
 ## OS? MPPT? What's that?
 We are the OS-MPPT project! This is an Open-Source Maximum Power Point tracker project as researched and designed by our Senior Design team at K-State. 
 
