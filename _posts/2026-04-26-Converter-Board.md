@@ -44,6 +44,8 @@ Next, you have the active components, namely...
 
 **Gate Driver:** This device will take an incoming PWM and reconstruct high- and low-side PWMs at a sufficient voltage to drive the gates. Some of this I have already mentioned earlier, such as the built-in dead time. Really, simplicity is what's best to look out for here. Our specific gate driver is the DGD1504. 
 
+For our design, we heavily relied on pre-existing tech docs and guidance from electronics companies, other engineers, and research groups. Notably, the Texas Instruments Application Report SLVA477B on the Basic Calculation of a Buck Converter's Power Stage.
+
 Putting all these components together in our synchronous buck configuration, this becomes the following:
 
 ![Synchronous Buck Converter Block Diagram](/assets/OS-MPPTE_SynchBuck_Block.drawio.png)
@@ -99,4 +101,8 @@ That's it. That's a basic MPPT algorithm. Now, what's actually going on here? We
 
 Putting everything we've talked about together, our end-schematic looks like the following:
 
-!(Main Board Schematic)[]
+![Main Board Schematic](/assets/schematicMainBoard.png)
+
+Which our wonderful engineer on the job created the following layout from:
+
+![Main Board Layout](/assets/layoutMainBoard.png)
